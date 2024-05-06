@@ -5,7 +5,8 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon bot.js"
+    "start": "nodemon bot.js",
+    "build": "pkg bot.js -t node18-win-x64 -o bottele "
   },
   "repository": {
     "type": "git",
